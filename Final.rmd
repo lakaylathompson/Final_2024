@@ -215,7 +215,7 @@ The study on FEMALES, those who received the vaccine had a significantly lower i
 
 ## LGBTQ
 
-
+IN the study for the LGBTQ community,the graphical and numerical results demonstrated a significant reduction in the incidence of Covid921 among vaccine recipients. Showing a relative risk reduction of approximately 55.2% compared to the placebo group. The inferential results, supported by extremely low p-values from the chi-squared (0.000002266) and Fisher's Exact Test (0.0000007269), led to the rejection of the null hypothesis. This indicates that the vaccine significantly reduces the risk of contracting Covid921 in the LGBTQ community.
 
 # DRUG USERS
 
