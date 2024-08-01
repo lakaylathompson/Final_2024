@@ -111,7 +111,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The chi-squared test yields a p-value of 0.00000001914, and the Fisher's Exact Test shows a p-value of 0.00000001246, both less than 0.05. Thus, we reject the null hypothesis. The odds ratio indicates that females are 1.86 times more likely to contract Covid921 with the placebo than with the vaccine.
+The chi-squared test yields a p-value of 0.00000001914, and the Fisher's Exact Test shows a p-value of 0.00000001246, both less than 0.05. Thus, we reject the null hypothesis. The odds ratio indicates that FEMALES are 1.86 times more likely to contract Covid921 with the placebo than with the vaccine.
 
 ## LGBTQ
 
@@ -181,7 +181,7 @@ barchartGC(~treatment + infected,data=DrugUser)
 barchartGC(~infected + treatment,data=DrugUser,type="percent")
 ```
 
-The bar charts shows an unexpected result: drug users who received the placebo were less likely to contract Covid921 compared to those who received the vaccine.  However, about 50% of drug users in both groups did not contract the virus.
+The bar charts shows an unexpected result: DRUG USERS who received the placebo were less likely to contract Covid921 compared to those who received the vaccine.  However, about 50% of DRUG USERS in both groups did not contract the virus.
 
 ### Numerical Results
 
@@ -191,7 +191,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The numerical results a 3.28% difference in infection rates: 3.61% of those who received the vaccine contracted Covid921 compared to 0.33% of those who received the placebo. This suggests the vaccine may not be effective in this subgroup.Typically, a vaccine is expected to reduce the risk of Covid921, not increase it.
+The numerical results a 3.28% difference in infection rates: 3.61% of those who received the vaccine contracted Covid921 compared to 0.33% of those who received the placebo. This suggests the vaccine may not be effective in DRUG USERS.Typically, a vaccine is expected to reduce the risk of Covid921, not increase it.
 
 ### Inferential Results
 
@@ -201,7 +201,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The chi-squared test yields a p-value of 0.0000000001414, and the Fisher's Exact Test provides a p-value of 0.000000000003261. Both p-values are less than 0.05, indicating a significant difference between the vaccine and placebo groups. However, the data suggests an increased risk of infection for drug users who received the vaccine, which is an unexpected finding. Thus, we fail to reject the null hypothesis.
+The chi-squared test yields a p-value of 0.0000000001414, and the Fisher's Exact Test provides a p-value of 0.000000000003261. Both p-values are less than 0.05, indicating a significant difference between the vaccine and placebo groups. However, the data suggests an increased risk of infection for DRUG USERS who received the vaccine, which is an unexpected finding. Thus, we fail to reject the null hypothesis.
 
 # Overall Results and Conclusions
 
