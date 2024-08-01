@@ -101,7 +101,8 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The numerical results data indicates that the Covid921 vaccine significantly decreases the chances of contracting the virus compared to the placebo. Specifically, it reduces the odds of getting Covid921 by about 46.9% and lowers the risk of infection by approximately 45.5% compared to the placebo.
+The numerical results shows that the Covid921 vaccine reduces the odds of contracting the virus by approximately 46.9% and lowers the risk of infection by around 45.5% compared to the placebo.
+
 
 ### Inferential Results
 
