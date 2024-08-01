@@ -26,6 +26,9 @@ A new  preventative vaccine (covid921) is under test in clinical trials. Given t
 
 ## Males
 
+$H_0$: The Covid921 vaccine is not effective in MALES  
+
+$H_A$: The Covid921 vaccine is effective in MALES 
 
 ## Females
 
