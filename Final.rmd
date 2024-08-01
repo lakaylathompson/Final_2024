@@ -1,6 +1,6 @@
 ---
 title: "Covid91 vaccine study Final2024"
-author: "Put your name here!"
+author: "La Kayla Thompson"
 output: 
   html_document:
     number_sections: true
@@ -203,6 +203,25 @@ fisher.test(table1)
 
 The chi-squared test yields a p-value of 0.0000000001414, and the Fisher's Exact Test provides a p-value of 0.000000000003261. Both p-values are less than 0.05, indicating a significant difference between the vaccine and placebo groups. However, the data suggests an increased risk of infection for DRUG USERS who received the vaccine, which is an unexpected finding. Thus, we fail to reject the null hypothesis.
 
-# Overall Results and Conclusions
+# Individual Conclusions
+
+## MALES
+
+In the study, the data showed that MALES who received the vaccine were significantly less likely to contract Covid921, with only 26% infection among the vaccinated compared to 74% among those who received a placebo. Inferential analysis using the chi-squared and Fisher's Exact Test yielded extremely low p-values (0.00000000000000022), well below 0.05, leading to the rejection of the null hypothesis. Thus, the vaccine is concluded to be effective in reducing the risk of contracting Covid921 in MALES.
+
+## FEMALES
+
+
+
+## LGBTQ
+
+
+
+# DRUG USERS
+
+
+
+# Overall Results and Conclusion
+
 
 
