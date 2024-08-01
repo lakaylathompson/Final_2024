@@ -105,6 +105,18 @@ colPerc(table1)
 
 The numerical results data indicates that the Covid921 vaccine significantly decreases the chances of contracting the virus compared to the placebo. Specifically, it reduces the odds of getting Covid921 by about 46.9% and lowers the risk of infection by approximately 45.5% compared to the placebo.
 
+### Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The chi-squared test shows that the p-value = 0.00000001914, so we reject the null hypothesis because it is less than 0.05.
+
+The Fisher's Exact Test shows that the p-value = 0.00000001246, so we reject the null hypothesis because it is less than 0.05. The test also shows that FEMALES have a odds ratio of being 1.86 times more likely to get Covid921 with a placebo compared to those who got the vaccine.  
+
 ## LGBTQ
 
 
