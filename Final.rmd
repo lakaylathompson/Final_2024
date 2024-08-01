@@ -59,6 +59,18 @@ colPerc(table1)
 
 The numerical results show that about 74% of MALES who took the placebo got Covid921, while about 26% of MALES who got the vaccines got Covid921.
 
+### Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The chi-squared test shows that the p-value = 0.00000000000000022, so we reject the null hypothesis since it is less than 0.05.
+
+The Fisher's Exact Test shows that the p-value is 0.00000000000000022, so we reject the null hypothesis since it is less than 0.05. The test also shows that MALES have an odds ratio of being 2.8 times more likely to get Covid921 with a placebo compared to those who got the vaccine. 
+
 ## Females
 
 
