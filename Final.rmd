@@ -67,9 +67,8 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The chi-squared test shows that the p-value = 0.00000000000000022, so we reject the null hypothesis since it is less than 0.05.
+The chi-squared test and Fisher's Exact Test both show a p-value of 0.00000000000000022, which is less than 0.05. Therefore, we reject the null hypothesis, indicating a statistically significant effect of the vaccine. MALES are 2.8 times more likely to contract Covid921 with the placebo compared to the vaccine.
 
-The Fisher's Exact Test shows that the p-value is 0.00000000000000022, so we reject the null hypothesis since it is less than 0.05. The test also shows that MALES have an odds ratio of being 2.8 times more likely to get Covid921 with a placebo compared to those who got the vaccine. 
 
 ## Females
 
