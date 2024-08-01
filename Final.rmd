@@ -95,6 +95,15 @@ barchartGC(~infected + treatment,data=females, type="percent")
 
 The barchart shows that FEMALES who got the vaccines were less likely to get Covid921, than those who got the placebo. However, about 50% of FEMALES that got the vaccine were OK, and about 50% of FEMALES with the placebo were OK.
 
+### Numerical Results
+
+```{r}
+table1 <- xtabs(~treatment + infected,data=females)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The numerical results data indicates that the Covid921 vaccine significantly decreases the chances of contracting the virus compared to the placebo. Specifically, it reduces the odds of getting Covid921 by about 46.9% and lowers the risk of infection by approximately 45.5% compared to the placebo.
 
 ## LGBTQ
 
