@@ -69,7 +69,6 @@ fisher.test(table1)
 
 The chi-squared test and Fisher's Exact Test both show a p-value of 0.00000000000000022, which is less than 0.05. Therefore, we reject the null hypothesis, indicating a statistically significant effect of the vaccine. MALES are 2.8 times more likely to contract Covid921 with the placebo compared to the vaccine.
 
-
 ## Females
 
 $H_0$: The Covid921 vaccine is not effective in FEMALES 
@@ -92,7 +91,7 @@ barchartGC(~treatment + infected,data=females)
 barchartGC(~infected + treatment,data=females, type="percent")
 ```
 
-The barchart shows that FEMALES who got the vaccines were less likely to get Covid921, than those who got the placebo. However, about 50% of FEMALES that got the vaccine were OK, and about 50% of FEMALES with the placebo were OK.
+The bar charts shows that FEMALES who received the vaccine were less likely to contract Covid921 compared to those who received the placebo. However, about 50% of FEMALES in both groups remained uninfected.
 
 ### Numerical Results
 
