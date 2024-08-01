@@ -123,6 +123,13 @@ $H_0$: The Covid921 vaccine is not effective in LGBTQ Community.
 
 $H_A$: The Covid921 vaccine is effective in LGBTQ Community.
 
+### Methods 
+
+Treatment is a categorical variable   
+LGBTQ is a categorical variable   
+So we use is cat~cat helper file    
+
+
 ## Druggies
 
 
