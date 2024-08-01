@@ -57,7 +57,7 @@ colPerc(table1)
 ```
 
 
-The numerical results show that about 74% of MALES who took the placebo got Covid921, while about 26% of MALES who got the vaccines got Covid921.
+The numerical results show that about 74% of MALES who received the placebo contracted Covid921, whereas only about 26% of MALES who received the vaccine contracted the virus.
 
 ### Inferential Results
 
