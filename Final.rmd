@@ -136,7 +136,7 @@ barchartGC(~infected + treatment,data=LGBTQ)
 barchartGC(~infected + treatment,data=LGBTQ, type="percent")
 ```
 
-The bar charts show that LGBTQ individuals who received the vaccine were less likely to contract Covid921 compared to those who received the placebo. However, about 50% of LGBTQ that got the placebo were uninfected, and 55% that got the vaccine were uninfected.
+The bar charts show that LGBTQ individuals who received the vaccine were less likely to contract Covid921 compared to those who received the placebo. However, about 45% of LGBTQ that got the placebo were uninfected, and 50% that got the vaccine were uninfected.
 
 ### Numerical Results
 
@@ -146,7 +146,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The numerical results show that 80% of LGBTQ participants received a placebo and 20% received the Covid921 vaccine. The Covid921 vaccine reduced the odds of contracting the virus to approximately 24% compared to the placebo. The risk of infection with the vaccine was about 44.8% of the risk with the placebo, resulting in a relative risk reduction of around 55.2%, indicating a significant protective effect.
+The numerical results show that about 80% of LGBTQ participants who received the placebo contracted Covid921, while 20% who received the vaccine contracted the virus. The vaccine reduces the relative risk of infection by approximately 55.2%.
 
 ### Inferential Results
 
