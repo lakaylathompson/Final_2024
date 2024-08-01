@@ -191,7 +191,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The numerical results show a 3.28% difference in Covid921 infection rates. Specifically, 3.61% of those who received the vaccine contracted Covid921, compared to 0.33% of those who received the placebo. For those who remained uninfected (OK), there was a 2.61% difference. This analysis presents an unusual result, where the vaccine appears to increase the risk of infection compared to the placebo, which is unexpected. This outcome may suggest either an anomaly in the data or a specific context of the study that warrants further review. Typically, a vaccine is expected to reduce the risk of Covid921, not increase it.
+The numerical results a 3.28% difference in infection rates: 3.61% of those who received the vaccine contracted Covid921 compared to 0.33% of those who received the placebo. This suggests the vaccine may not be effective in this subgroup.Typically, a vaccine is expected to reduce the risk of Covid921, not increase it.
 
 ### Inferential Results
 
