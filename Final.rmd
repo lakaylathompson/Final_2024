@@ -211,7 +211,7 @@ In the study, the data showed that MALES who received the vaccine were significa
 
 ## FEMALES
 
-
+The study on FEMALES, those who received the vaccine had a significantly lower incidence of Covid921 compared to those who received a placebo. The vaccine reduced the odds of infection by approximately 46.9%. Inferential tests,  chi-squared and Fisher's Exact Test, yielded p-values significantly below 0.05 (0.00000001914 and 0.00000001246, respectively), leading to the rejection of the null hypothesis. This strongly supports that the Covid921 vaccine is effective in reducing infections among FEMALES.
 
 ## LGBTQ
 
