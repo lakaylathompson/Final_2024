@@ -156,9 +156,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The chi-squared test shows that the p-value = 0.000002266 which is smaller than 0.05. This shows that the vaccine does significantly reduce the risk of contracting Covid921 among the LGBTQ community, so we reject the null hypothesis.
-
-The Fisher's Exact Test p-value = 0.0000007269, and the odds of getting Covid921 with the vaccine is about 0.24 times the odds of getting it with the placebo. Suggesting that the vaccine considerably lowers the risk compared to the placebo.
+The chi-squared test gives a p-value of 0.000002266, and the Fisher's Exact Test provides a p-value of 0.0000007269, both below 0.05, so we reject the null hypothesis. This indicates a statistically significant effect of the vaccine. The odds of contracting Covid921 are significantly lower with the vaccine compared to the placebo.
 
 ## Druggies
 
