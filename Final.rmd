@@ -142,6 +142,16 @@ barchartGC(~infected + treatment,data=LGBTQ, type="percent")
 
 The barchart shows that LGBTQ who got the vaccines were less likely to get Covid921, than those who got the placebo. However, about 50% of LGBTQ that got the vaccine were OK, and about 45% of LGBTQ with the placebo were OK.
 
+### Numerical Results
+
+```{r}
+table1 <- xtabs(~treatment + infected, data=LGBTQ)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The numerical results show that 80% of LGBTQ participants received a placebo and 20% received the Covid921 vaccine. The Covid921 vaccine reduced the odds of contracting the virus to approximately 24% compared to the placebo. The risk of infection with the vaccine was about 44.8% of the risk with the placebo, resulting in a relative risk reduction of around 55.2%, indicating a significant protective effect.
+
 ## Druggies
 
 
