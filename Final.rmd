@@ -152,6 +152,18 @@ colPerc(table1)
 
 The numerical results show that 80% of LGBTQ participants received a placebo and 20% received the Covid921 vaccine. The Covid921 vaccine reduced the odds of contracting the virus to approximately 24% compared to the placebo. The risk of infection with the vaccine was about 44.8% of the risk with the placebo, resulting in a relative risk reduction of around 55.2%, indicating a significant protective effect.
 
+### Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The chi-squared test shows that the p-value = 0.000002266 which is smaller than 0.05. This shows that the vaccine does significantly reduce the risk of contracting Covid921 among the LGBTQ community, so we reject the null hypothesis.
+
+The Fisher's Exact Test p-value = 0.0000007269, and the odds of getting Covid921 with the vaccine is about 0.24 times the odds of getting it with the placebo. Suggesting that the vaccine considerably lowers the risk compared to the placebo.
+
 ## Druggies
 
 
