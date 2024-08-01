@@ -170,4 +170,23 @@ $H_0$: The Covid921 vaccine is not effective in Drug users
 
 $H_A$: The Covid921 vaccine is effective in Drug users
 
+### Methods 
+
+Treatment is a categorical variable   
+DRUGGIES is a categorical variable   
+So we use is cat~cat helper file    
+
+### Descriptive Results 
+
+### Graphical Results
+
+```{r}
+DrugUser=filter(FinalData,FinalData$DrugUser=="yes")
+
+barchartGC(~treatment + infected,data=DrugUser)
+barchartGC(~infected + treatment,data=DrugUser,type="percent")
+```
+
+The barchart shows that the Drug Users that got the placebo were less likely to get Covid921 then those who got the vaccine. However, both were about 50% OK.
+
 # Overall Results and Conclusions
