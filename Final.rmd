@@ -166,5 +166,8 @@ The Fisher's Exact Test p-value = 0.0000007269, and the odds of getting Covid921
 
 ## Druggies
 
+$H_0$: The Covid921 vaccine is not effective in Drug users 
+
+$H_A$: The Covid921 vaccine is effective in Drug users
 
 # Overall Results and Conclusions
