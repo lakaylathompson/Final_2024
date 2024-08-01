@@ -201,9 +201,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The chi-squared tests p-value = 0.0000000001414 which is smaller than 0.05, so we reject the null hypothesis. This data shows that there is a significant difference in the incidence of Covid921 between the placebo and vaccine groups. This suggests that the vaccine does have an effect on preventing Covid921.
-
-The Fisher's Exact Tests p-value = 0.000000000003261 which is less than 0.05. This data further confirms the significant difference between the rates of Covid921.
+The chi-squared test yields a p-value of 0.0000000001414, and the Fisher's Exact Test provides a p-value of 0.000000000003261. Both p-values are less than 0.05, indicating a significant difference between the vaccine and placebo groups. However, the data suggests an increased risk of infection for drug users who received the vaccine, which is an unexpected finding. Thus, we fail to reject the null hypothesis.
 
 # Overall Results and Conclusions
 
