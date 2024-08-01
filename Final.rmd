@@ -221,8 +221,7 @@ IN the study for the LGBTQ community,the graphical and numerical results demonst
 
 In the case of DRUG USERS, the graphical and numerical analysis revealed a higher infection rate in the vaccine group (3.61%) compared to the placebo group (0.33%), contrary to expectations. Despite these unexpected results, both the chi-squared and Fisher's Exact Test yielded extremely significant p-values (0.0000000001414 and 0.000000000003261, respectively). This suggests a statistically significant difference between the groups, but the observed increased infection risk with the vaccine requires further investigation to clarify these anomalous findings. With this information with the increased infection risk with the vaccine leads us to into failing to reject the null hypothesis.
 
-
 # Overall Results and Conclusion
 
-
+The Covid921 vaccine is shown to be significantly effective in reducing the cases of Covid921 among MALES, FEMALES, and LGBTQ communities, as the null hypothesis was consistently rejected with extremely low p-values, indicating a strong protective effect compared to a placebo. However, the data for DRUG USERS suggests an unexpected increase in infection risk regaurdless of having a low p-value as well. This highlights the need for further investigation into possible data anomalies or specific contextual factors. Overall, the vaccine is recommended for the general population, but caution and additional analysis are advised for DRUG USERS.
 
