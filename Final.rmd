@@ -73,6 +73,28 @@ The Fisher's Exact Test shows that the p-value is 0.00000000000000022, so we rej
 
 ## Females
 
+$H_0$: The Covid921 vaccine is not effective in FEMALES 
+
+$H_A$: The Covid921 vaccine is effective in FEMALES
+
+### Methods 
+
+Treatment is a categorical variable   
+FEMALES is a categorical variable   
+So we use is cat~cat helper file 
+
+### Descriptive Results 
+
+### Graphical Results
+
+```{r}
+females=filter(FinalData,FinalData$sex=="F")
+barchartGC(~treatment + infected,data=females)
+barchartGC(~infected + treatment,data=females, type="percent")
+```
+
+The barchart shows that FEMALES who got the vaccines were less likely to get Covid921, than those who got the placebo. However, about 50% of FEMALES that got the vaccine were OK, and about 50% of FEMALES with the placebo were OK.
+
 
 ## LGBTQ
 
