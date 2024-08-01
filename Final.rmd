@@ -136,7 +136,7 @@ barchartGC(~infected + treatment,data=LGBTQ)
 barchartGC(~infected + treatment,data=LGBTQ, type="percent")
 ```
 
-The barchart shows that LGBTQ who got the vaccines were less likely to get Covid921, than those who got the placebo. However, about 50% of LGBTQ that got the vaccine were OK, and about 45% of LGBTQ with the placebo were OK.
+The bar charts show that LGBTQ individuals who received the vaccine were less likely to contract Covid921 compared to those who received the placebo. However, about 50% of LGBTQ that got the placebo were uninfected, and 55% that got the vaccine were uninfected.
 
 ### Numerical Results
 
