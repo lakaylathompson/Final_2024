@@ -129,6 +129,18 @@ Treatment is a categorical variable
 LGBTQ is a categorical variable   
 So we use is cat~cat helper file    
 
+### Descriptive Results 
+
+### Graphical Results
+
+```{r}
+LGBTQ = filter(FinalData, LGBTQ=="gay")
+
+barchartGC(~infected + treatment,data=LGBTQ)
+barchartGC(~infected + treatment,data=LGBTQ, type="percent")
+```
+
+The barchart shows that LGBTQ who got the vaccines were less likely to get Covid921, than those who got the placebo. However, about 50% of LGBTQ that got the vaccine were OK, and about 45% of LGBTQ with the placebo were OK.
 
 ## Druggies
 
