@@ -119,7 +119,9 @@ The Fisher's Exact Test shows that the p-value = 0.00000001246, so we reject the
 
 ## LGBTQ
 
+$H_0$: The Covid921 vaccine is not effective in LGBTQ Community.
 
+$H_A$: The Covid921 vaccine is effective in LGBTQ Community.
 
 ## Druggies
 
