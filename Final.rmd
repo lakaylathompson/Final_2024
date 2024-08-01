@@ -181,7 +181,7 @@ barchartGC(~treatment + infected,data=DrugUser)
 barchartGC(~infected + treatment,data=DrugUser,type="percent")
 ```
 
-The barchart shows that the Drug Users that got the placebo were less likely to get Covid921 then those who got the vaccine. However, both were about 50% OK.
+The bar charts shows an unexpected result: drug users who received the placebo were less likely to contract Covid921 compared to those who received the vaccine.  However, about 50% of drug users in both groups did not contract the virus.
 
 ### Numerical Results
 
