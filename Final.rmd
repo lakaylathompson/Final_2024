@@ -30,6 +30,24 @@ $H_0$: The Covid921 vaccine is not effective in MALES
 
 $H_A$: The Covid921 vaccine is effective in MALES 
 
+### Methods 
+
+Treatment is a categorical variable  
+MALES is also a categorical variable  
+So we use the cat~cat helper file  
+
+### Descriptive Results 
+
+### Graphical Results
+
+```{r}
+males=filter(FinalData,FinalData$sex=="M")
+barchartGC(~treatment + infected,data=males)
+barchartGC(~infected + treatment,data=males, type="percent")
+```
+
+The barchart shows that MALES who got the vaccines were less likely to get Covid921, than those who got the placebo. However, about 50% of MALES that got vaccine were OK, and about 50% of MALES with the placebo were OK.
+
 ## Females
 
 
