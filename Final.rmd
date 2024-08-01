@@ -46,7 +46,7 @@ barchartGC(~treatment + infected,data=males)
 barchartGC(~infected + treatment,data=males, type="percent")
 ```
 
-The barchart shows that MALES who got the vaccines were less likely to get Covid921, than those who got the placebo. However, about 50% of MALES that got vaccine were OK, and about 50% of MALES with the placebo were OK.
+The bar charts indicate that MALES who received the vaccine were less likely to contract Covid921 compared to those who received a placebo. However, about 50% of MALES who received either the vaccine or placebo did not contract the virus.
 
 ### Numerical Results
 
