@@ -199,4 +199,18 @@ colPerc(table1)
 
 The numerical results show a 3.28% difference in Covid921 infection rates. Specifically, 3.61% of those who received the vaccine contracted Covid921, compared to 0.33% of those who received the placebo. For those who remained uninfected (OK), there was a 2.61% difference. This analysis presents an unusual result, where the vaccine appears to increase the risk of infection compared to the placebo, which is unexpected. This outcome may suggest either an anomaly in the data or a specific context of the study that warrants further review. Typically, a vaccine is expected to reduce the risk of Covid921, not increase it.
 
+### Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The chi-squared tests p-value = 0.0000000001414 which is smaller than 0.05, so we reject the null hypothesis. This data shows that there is a significant difference in the incidence of Covid921 between the placebo and vaccine groups. This suggests that the vaccine does have an effect on preventing Covid921.
+
+The Fisher's Exact Tests p-value = 0.000000000003261 which is less than 0.05. This data further confirms the significant difference between the rates of Covid921.
+
 # Overall Results and Conclusions
+
+
